@@ -128,6 +128,7 @@ def scrape_link(url):
 def append_file(results, keywords):
     # Use the keyword for the file name
     file_name = keywords.replace(' ', '_')
+    file_name = file_name.replace('@', '__')
     file_name += ".txt"
     file_name = os.path.join("results", file_name)
 
