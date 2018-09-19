@@ -96,7 +96,7 @@ venv.bak/
 
 .idea
 
-results/*
+results/*.txt
 
 # Rope project settings
 .ropeproject
